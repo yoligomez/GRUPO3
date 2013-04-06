@@ -58,7 +58,8 @@ h3 {
 p::first-letter{color:red; font-size:36px;}
 
 body {
-	background-color: #FFF;
+	background-color: ##FFC;
+	
 }
  .inclino{
             -moz-transform: skew(30deg, 3deg);
