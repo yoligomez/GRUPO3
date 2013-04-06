@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, h1, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #FFF;
+	
+	font-family: sans-serif; 
+}
+
+#contact {
+	width: 450px; margin: 30px auto; padding: 60px 30px;
+	background:#FFF; border: 1px solid #F90;
+	-moz-box-shadow: 0px 0px 8px #FFF;
+	-webkit-box-shadow: 0px 0px 8px #FFF;
+}
+
+h1 {
+	font-size: 35px; color: #F90; text-transform: uppercase;
+	text-align: center; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+label {
+	float: left; clear: left; margin: 11px 20px 0 0; width: 95px;
+	text-align: right; font-size: 16px; color: #F90; 
+	text-transform: uppercase; text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+input {
+	width: 260px; height: 35px; padding: 5px 20px 0px 20px; margin: 0 0 20px 0; 
+	background: #FFF;
+	background: -moz-linear-gradient(top, #FFF 0%, #FFF 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF), color-stop(20%,#FFF)); /* webkit */
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif; font-size: 16px; color: #000; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71; border: 1px solid #F90;
+}
+	input::-webkit-input-placeholder  {
+    	color: #FCE1A9; text-shadow: 0px -1px 0px #FFF;  
+	
+	}
+	input:-moz-placeholder {
+	    color: #FCE1A9; text-shadow: 0px -1px 0px #FFF; 
+	}
+
+textarea {
+	width: 260px; height: 170px; padding: 12px 20px 0px 20px; margin: 0 0 10px 0; 
+	background: #FFF;
+	background: -moz-linear-gradient(top, #FFF 0%, #FFF 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF), color-stop(20%,#FFF)); /* webkit */
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif; font-size: 16px; color: #000; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71; border: 1px solid #F90;
+ 
+}
+	textarea::-webkit-input-placeholder  {
+    	color: #FCE1A9; text-shadow: 0px -1px 0px #FFF;   
+	}
+	textarea:-moz-placeholder {
+	    color: #FCE1A9; text-shadow: 0px -1px 0px #FFF;  
+	}
+	
+input:focus, textarea:focus {
+	background: #FFF;
+	background: -moz-linear-gradient(top, #F90 0%, #F90 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F90), color-stop(20%,#F90)); /* webkit */
+		border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+}
+
+input[type=submit] {
+	width: 185px; height: 52px; float: right; padding: 10px 15px; margin: 0 15px 0 0;
+	-moz-box-shadow: 0px 0px 5px #fff;-webkit-box-shadow: 0px 0px 5px #fff;
+	border: 1px solid #F90;
+	background: -moz-linear-gradient(top, #F90 0%, #F90 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F90), color-stop(20%,#F90)); /* webkit */
+	cursor: pointer;
+	
+}
+
